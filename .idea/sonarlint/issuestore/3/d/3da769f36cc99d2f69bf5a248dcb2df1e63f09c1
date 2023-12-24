@@ -1,0 +1,14 @@
+
+E
+java:S1604"(Make this anonymous inner class a lambda(ù§şÓ8…ğÁîÉ1
+J
+java:S1604 "(Make this anonymous inner class a lambda(°»µ¬üÿÿÿÿ8’öÄîÉ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú¬Œ¨8†ğÁîÉ1
+T
+java:S3958"2Refactor the code so this stream pipeline is used.(ÏñÛÄûÿÿÿÿ8ŠğÁîÉ1
+T
+java:S3958"2Refactor the code so this stream pipeline is used.(ãÒ˜µûÿÿÿÿ8ŠğÁîÉ1
+Z
+java:S1612"=Replace this lambda with method reference 'Object::toString'.(ÄÃøâ8ğÁîÉ1
+L	java:S106"+Replace this use of System.out by a logger.(™’÷ÿÿÿÿÿ8ı³ÃîÉ1
+G	java:S106'"+Replace this use of System.out by a logger.(çœ£Ê8¢öÄîÉ1
