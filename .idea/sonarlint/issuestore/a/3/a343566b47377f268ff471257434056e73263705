@@ -1,0 +1,14 @@
+
+‘
+java:S1488"oImmediately return this expression instead of assigning it to the temporary variable "mensagemSuperEncriptada".(ı¹Áùÿÿÿÿ8§¾ËğË1
+x
+java:S4276
+"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(Çı›Ì8®¾ËğË1
+d
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(áÓßN8¯¾ËğË1
+G	java:S106"+Replace this use of System.out by a logger.(¨«ºå8°¾ËğË1
+e
+java:S5361"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¨«ºå8°¾ËğË1
+L	java:S106"+Replace this use of System.out by a logger.(„‘Û¹ıÿÿÿÿ8°¾ËğË1
+G	java:S106"+Replace this use of System.out by a logger.(ˆë÷´8±¾ËğË1
+L	java:S106"+Replace this use of System.out by a logger.(Óâé×ùÿÿÿÿ8°µÌğË1
