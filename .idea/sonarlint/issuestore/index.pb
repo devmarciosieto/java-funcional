@@ -11,3 +11,9 @@ W
 Msrc/main/java/br/com/mmmsieto/highOrderFunction/impl/HighOrderFunction03.java,c\e\ceb79506ae80299697771bff7b15a6dc0fc9cf8f
 i
 9src/main/java/br/com/mmmsieto/identity/impl/Identity.java,a\3\a343566b47377f268ff471257434056e73263705
+w
+Gsrc/main/java/br/com/mmmsieto/composition/impl/FunctionComposition.java,2\6\26a314ead79435b030b70b87f68b5ebf6be02b90
+l
+<src/main/java/br/com/mmmsieto/composition/impl/Function.java,0\0\00a37e3348e609538ae52aaa482bddbac42d78de
+g
+7src/main/java/br/com/mmmsieto/composition/Function.java,8\8\889b45fdf6691af9ae71e9c0425a7fc9e49dd52d

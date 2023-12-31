@@ -1,0 +1,15 @@
+
+j
+java:S5361
+"HReplace this call to "replaceAll()" by a call to the "replace()" method.(š¿”´ùÿÿÿÿ8İö®Ì1
+b
+java:S1612"@Replace this lambda with method reference 'String::toLowerCase'.(ää™ùÿÿÿÿ8ßö®Ì1
+L	java:S106"+Replace this use of System.out by a logger.(‘¬éÍøÿÿÿÿ8ßö®Ì1
+L	java:S106"+Replace this use of System.out by a logger.(ïéó‘ûÿÿÿÿ8ßö®Ì1
+Z
+java:S1612"=Replace this lambda with method reference 'Object::toString'.(–¤Ò8àö®Ì1
+_
+java:S1612"=Replace this lambda with method reference 'Number::intValue'.(îÚåğıÿÿÿÿ8àö®Ì1
+G	java:S106"+Replace this use of System.out by a logger.(ÿı¸Ç8áö®Ì1
+L	java:S106"+Replace this use of System.out by a logger.(æÔ‡÷úÿÿÿÿ8áö®Ì1
+G	java:S106 "+Replace this use of System.out by a logger.(†Ëó8áö®Ì1
