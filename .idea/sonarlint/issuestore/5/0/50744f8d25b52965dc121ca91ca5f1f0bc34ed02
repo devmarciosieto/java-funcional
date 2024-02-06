@@ -1,0 +1,31 @@
+
+„
+java:S1192 "bDefine a constant instead of duplicating this literal "---------------------------------" 3 times.(Êô²ºúÿÿÿÿ8Á‰¤ß×1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´”¸‹8Â‰¤ß×1
+z
+java:S4276"]Refactor this code to use the more specialised Functional Interface 'BinaryOperator<Integer>'(Ã¥ö‰8Å‰¤ß×1
+L	java:S106"+Replace this use of System.out by a logger.(ô®Ï¤ùÿÿÿÿ8Æ‰¤ß×1
+x
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'IntFunction<Function>'(°ìÑå8Æ‰¤ß×1
+G	java:S106"+Replace this use of System.out by a logger.(Æ™šú8Æ‰¤ß×1
+x
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(Ñ³ôØûÿÿÿÿ8Æ‰¤ß×1
+G	java:S106"+Replace this use of System.out by a logger.(¨¡°Ñ8Æ‰¤ß×1
+G	java:S106"+Replace this use of System.out by a logger.(ÜÔËÿ8Ç‰¤ß×1
+G	java:S106"+Replace this use of System.out by a logger.(“”ù8Ç‰¤ß×1
+L	java:S106 "+Replace this use of System.out by a logger.(Êô²ºúÿÿÿÿ8Ç‰¤ß×1
+L	java:S106#"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8Ç‰¤ß×1
+L	java:S106%"+Replace this use of System.out by a logger.(Êô²ºúÿÿÿÿ8È‰¤ß×1
+G	java:S106'"+Replace this use of System.out by a logger.(ş…ˆ8È‰¤ß×1
+L	java:S106)"+Replace this use of System.out by a logger.(Êô²ºúÿÿÿÿ8È‰¤ß×1
+{
+java:S4276*"YRefactor this code to use the more specialised Functional Interface 'IntToDoubleFunction'(ö¨³–üÿÿÿÿ8È‰¤ß×1
+L	java:S106+"+Replace this use of System.out by a logger.(±–ë£úÿÿÿÿ8È‰¤ß×1
+G	java:S106-"+Replace this use of System.out by a logger.(èğƒ‘8È‰¤ß×1
+€
+java:S4276/"^Refactor this code to use the more specialised Functional Interface 'ToDoubleFunction<String>'(˜ùëùÿÿÿÿ8È‰¤ß×1
+L	java:S1060"+Replace this use of System.out by a logger.(˜İîùÿÿÿÿ8É‰¤ß×1
+G	java:S1062"+Replace this use of System.out by a logger.(¹ÊÓ8ñœ¥ß×1
+{
+java:S42764"^Refactor this code to use the more specialised Functional Interface 'ToDoubleFunction<String>'(Òÿ¡÷8ñœ¥ß×1
+G	java:S1065"+Replace this use of System.out by a logger.(Èä¸Ê8ñœ¥ß×1
