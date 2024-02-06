@@ -55,16 +55,16 @@ public class CurryAndPartial {
     }
 
 
-    static <I, D, S> Function<I, D> partial0(S estado, BiFunction<S, I, D> calculaTaxa) {
-        return i -> calculaTaxa.apply(estado, i);
+    static <I, D, S> Function<I, D> partial0(S estado, BiFunction<S, I, D> f) {
+        return i -> f.apply(estado, i);
     }
 
-    static <I, D, S> Function<S, D> partial1(I preco, BiFunction<S, I, D> calculaTaxa) {
-        return s -> calculaTaxa.apply(s, preco);
+    static <I, D, S> Function<S, D> partial1(I preco, BiFunction<S, I, D> f) {
+        return s -> f.apply(s, preco);
     }
 
-    static <S, I, D> Function<S, Function<I, D>> curry(BiFunction<S, I, D> calculaTaxa) {
-        return s -> i -> calculaTaxa.apply(s, i);
+    static <S, I, D> Function<S, Function<I, D>> curry(BiFunction<S, I, D> f) {
+        return s -> i -> f.apply(s, i);
     }
 
 }
