@@ -17,3 +17,7 @@ g
 7src/main/java/br/com/mmmsieto/composition/Function.java,8\8\889b45fdf6691af9ae71e9c0425a7fc9e49dd52d
 r
 Bsrc/main/java/br/com/mmmsieto/CurryingPartial/CurryAndPartial.java,5\0\50744f8d25b52965dc121ca91ca5f1f0bc34ed02
+o
+?src/main/java/br/com/mmmsieto/cacheMemoization/Memoization.java,3\f\3f46f55f4ef2f16e4c399a704adc287ac2ccb158
+l
+<src/main/java/br/com/mmmsieto/cacheMemoization/Function.java,f\7\f70812f30355667653a31cdfb8c3a0dd49993622
