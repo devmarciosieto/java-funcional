@@ -21,3 +21,11 @@ o
 ?src/main/java/br/com/mmmsieto/cacheMemoization/Memoization.java,3\f\3f46f55f4ef2f16e4c399a704adc287ac2ccb158
 l
 <src/main/java/br/com/mmmsieto/cacheMemoization/Function.java,f\7\f70812f30355667653a31cdfb8c3a0dd49993622
+d
+4src/main/java/br/com/mmmsieto/Laziness/Laziness.java,5\a\5a0af562f61d20922fab754e54d9fd078444930a
+`
+0src/main/java/br/com/mmmsieto/Laziness/Card.java,e\a\ea750b9cdbd4f33a192423a28afa155d9215061a
+d
+4src/main/java/br/com/mmmsieto/Laziness/ApplePay.java,1\0\10eb53f50ce14710f63d86669a06122729408082
+d
+4src/main/java/br/com/mmmsieto/Laziness/Supplier.java,c\7\c763b68bc48124922cd05ac4bbb49a53dc82c6c6
