@@ -1,14 +1,12 @@
 
-‰
-java:S1192	"gDefine a constant instead of duplicating this literal "**************************************" 3 times.(î‘¤Îøÿÿÿÿ8½‹‡‡Ù1
 9
-java:S16432"Use a StringBuilder instead.(ÜÕù¼8¾‹‡‡Ù1
-L	java:S106"+Replace this use of System.out by a logger.(³œº¡ıÿÿÿÿ8Ç‹‡‡Ù1
-G	java:S106"+Replace this use of System.out by a logger.(¦ˆÎ8Ç‹‡‡Ù1
-L	java:S106	"+Replace this use of System.out by a logger.(î‘¤Îøÿÿÿÿ8Ç‹‡‡Ù1
-L	java:S106"+Replace this use of System.out by a logger.(öÍ­™ûÿÿÿÿ8Ç‹‡‡Ù1
-F	java:S106"+Replace this use of System.out by a logger.(âÇ¦'8È‹‡‡Ù1
-L	java:S106"+Replace this use of System.out by a logger.(î‘¤Îøÿÿÿÿ8È‹‡‡Ù1
-L	java:S106"+Replace this use of System.out by a logger.(Êü¥øøÿÿÿÿ8È‹‡‡Ù1
-L	java:S106"+Replace this use of System.out by a logger.(î‘¤Îøÿÿÿÿ8È‹‡‡Ù1
-G	java:S106"+Replace this use of System.out by a logger.(ãÜöÏ8È‹‡‡Ù1
+java:S1643d"Use a StringBuilder instead.(ÜÕù¼8İÉ ¤Ù1
+L	java:S106"+Replace this use of System.out by a logger.(š—¾ôÿÿÿÿÿ8çÉ ¤Ù1
+]	java:S125"<This block of commented-out lines of code should be removed.(»ïøÿÿÿÿÿ8çÉ ¤Ù1
+]	java:S125"<This block of commented-out lines of code should be removed.(ËÀ²Óıÿÿÿÿ8çÉ ¤Ù1
+]	java:S125"<This block of commented-out lines of code should be removed.(Úò‹ªüÿÿÿÿ8çÉ ¤Ù1
+]	java:S125"<This block of commented-out lines of code should be removed.(™ß·Ëÿÿÿÿÿ8çÉ ¤Ù1
+]	java:S125"<This block of commented-out lines of code should be removed.(é€Ùõÿÿÿÿÿ8çÉ ¤Ù1
+L	java:S106"+Replace this use of System.out by a logger.(Ğ¹—üÿÿÿÿ8çÉ ¤Ù1
+L	java:S106"+Replace this use of System.out by a logger.(¦İÖÔøÿÿÿÿ8èÉ ¤Ù1
+L	java:S106 "+Replace this use of System.out by a logger.(­Æ¨İÿÿÿÿÿ8èÉ ¤Ù1
