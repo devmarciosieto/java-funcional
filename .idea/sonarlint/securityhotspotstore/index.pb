@@ -29,3 +29,5 @@ d
 4src/main/java/br/com/mmmsieto/Laziness/ApplePay.java,1\0\10eb53f50ce14710f63d86669a06122729408082
 d
 4src/main/java/br/com/mmmsieto/Laziness/Supplier.java,c\7\c763b68bc48124922cd05ac4bbb49a53dc82c6c6
+f
+6src/main/java/br/com/mmmsieto/recursoin/Recursoin.java,3\5\3582dc42b0944999428405cb56ea7375cb7ced84
