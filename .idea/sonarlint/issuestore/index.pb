@@ -31,3 +31,7 @@ d
 4src/main/java/br/com/mmmsieto/Laziness/Supplier.java,c\7\c763b68bc48124922cd05ac4bbb49a53dc82c6c6
 f
 6src/main/java/br/com/mmmsieto/recursoin/Recursoin.java,3\5\3582dc42b0944999428405cb56ea7375cb7ced84
+m
+=src/main/java/br/com/mmmsieto/trampoline/TrampolineUsage.java,7\1\715bac4cf4e53656dc9ca9b4f08c3fe4397f3426
+o
+?src/main/java/br/com/mmmsieto/trampoline/RecursiveTailCall.java,8\8\887592bc822b4cfe5b73f2468ce4963c5165b394

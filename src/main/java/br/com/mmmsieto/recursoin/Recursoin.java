@@ -4,26 +4,26 @@ public class Recursoin {
 
     public static void main(String[] args) {
 
-//        System.out.println("*********** repeatProcedural ***************************");
-//        System.out.println(repeatProcedural("a", 150_000));
-//        System.out.println("**************************************");
+        System.out.println("*********** repeatProcedural ***************************");
+        System.out.println(repeatProcedural("a", 3));
+        System.out.println("**************************************");
 
-//        System.out.println("************ repeatRecursive ***************************");
-//        System.out.println(repeatRecursive("a", 150_000));
-//        System.out.println("**************************************");
+        System.out.println("************ repeatRecursive ***************************");
+        System.out.println(repeatRecursive("a", 3));
+        System.out.println("**************************************");
 
-//        System.out.println("************ repeatTailRecursive ***************************");
-//        System.out.println(repeatTailRecursive("a", 3));
-//        System.out.println("**************************************");
+        System.out.println("************ repeatTailRecursive ***************************");
+        System.out.println(repeatTailRecursive("a", 3));
+        System.out.println("**************************************");
 
 
-//        System.out.println(countsN("N dlfs NsdfoNfosNfowew Neos"));
-//        System.out.println("**************************************");
-//        System.out.println(sum(2));
+        System.out.println(countsN("N dlfs NsdfoNfosNfowew Neos"));
+        System.out.println("**************************************");
+        System.out.println(sum(2));
 
-//        System.out.println("**************************************");
-//        System.out.println(countsNTailRecursive("N dlfs NsdfoNfosNfowew Neos"));
-//        System.out.println("**************************************");
+        System.out.println("**************************************");
+        System.out.println(countsNTailRecursive("N dlfs NsdfoNfosNfowew Neos"));
+        System.out.println("**************************************");
 
         System.out.println("**************** sum **********************");
         System.out.println(sum(5));
