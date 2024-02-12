@@ -1,6 +1,6 @@
 package br.com.mmmsieto.trampoline;
 
-import br.com.mmmsieto.Laziness.Supplier;
+import br.com.mmmsieto.laziness.Supplier;
 
 public abstract class RecursiveTailCall<T> {
 

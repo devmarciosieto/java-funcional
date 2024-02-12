@@ -1,4 +1,4 @@
-package br.com.mmmsieto.CurryingPartial;
+package br.com.mmmsieto.curryingpartial;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;

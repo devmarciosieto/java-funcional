@@ -1,4 +1,4 @@
-package br.com.mmmsieto.Laziness;
+package br.com.mmmsieto.laziness;
 
 import java.util.Optional;
 

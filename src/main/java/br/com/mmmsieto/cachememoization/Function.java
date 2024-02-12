@@ -1,6 +1,5 @@
-package br.com.mmmsieto.cacheMemoization;
+package br.com.mmmsieto.cachememoization;
 
-import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 
 @FunctionalInterface

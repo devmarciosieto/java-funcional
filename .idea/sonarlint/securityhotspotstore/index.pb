@@ -35,3 +35,7 @@ m
 =src/main/java/br/com/mmmsieto/trampoline/TrampolineUsage.java,7\1\715bac4cf4e53656dc9ca9b4f08c3fe4397f3426
 o
 ?src/main/java/br/com/mmmsieto/trampoline/RecursiveTailCall.java,8\8\887592bc822b4cfe5b73f2468ce4963c5165b394
+x
+Hsrc/main/java/br/com/mmmsieto/abstractIteration/CollectionUtilities.java,9\9\9923508b1bbd2d403963f784195ee40c3adb3ad9
+x
+Hsrc/main/java/br/com/mmmsieto/abstractiteration/CollectionUtilities.java,5\6\56f8c21a057833fc8bc12768ae4adf4ab450b683

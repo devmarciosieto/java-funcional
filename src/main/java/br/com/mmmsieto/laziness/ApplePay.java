@@ -1,4 +1,4 @@
-package br.com.mmmsieto.Laziness;
+package br.com.mmmsieto.laziness;
 
 public class ApplePay {
     private final String email;
