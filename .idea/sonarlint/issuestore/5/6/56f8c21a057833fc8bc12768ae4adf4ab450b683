@@ -1,3 +1,6 @@
 
-d
-java:S2094"BRemove this empty class, write its code or make it an "interface".(…²•­üÿÿÿÿ8×²ðûÙ1
+]	java:S125"<This block of commented-out lines of code should be removed.(†ÍÀùÿÿÿÿ8ÅªÇüÙ1
+L	java:S106"+Replace this use of System.out by a logger.(Ú–„‰úÿÿÿÿ8ÆªÇüÙ1
+]	java:S125"<This block of commented-out lines of code should be removed.(ÿÄîäùÿÿÿÿ8ÆªÇüÙ1
+G	java:S106"+Replace this use of System.out by a logger.(Œ–­ï8ÇªÇüÙ1
+L	java:S106"+Replace this use of System.out by a logger.(œÜÅ¼øÿÿÿÿ8ÇªÇüÙ1
