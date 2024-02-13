@@ -1,9 +1,6 @@
 
 E
 java:S1604"(Make this anonymous inner class a lambda(¾‘õ¥8Õâ´ïÉ1
-Ş
-java:S1598"»This file "Encripta.java" should be located in "br\com\mmmsieto\highOrderFunction" directory, not in "D:\backend\java\java-funcional\src\main\java\br\com\mmmsieto\highOrderFunction\impl".(„˜¶Îøÿÿÿÿ8‡­œÚ1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„˜¶Îøÿÿÿÿ8Öâ´ïÉ1
 x
 java:S4276"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(´¬‘÷8Şâ´ïÉ1
 G	java:S106#"+Replace this use of System.out by a logger.(ŒŒƒÈ8ßâ´ïÉ1

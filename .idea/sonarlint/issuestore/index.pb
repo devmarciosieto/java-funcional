@@ -39,3 +39,5 @@ x
 Hsrc/main/java/br/com/mmmsieto/abstractIteration/CollectionUtilities.java,9\9\9923508b1bbd2d403963f784195ee40c3adb3ad9
 x
 Hsrc/main/java/br/com/mmmsieto/abstractiteration/CollectionUtilities.java,5\6\56f8c21a057833fc8bc12768ae4adf4ab450b683
+m
+=src/main/java/br/com/mmmsieto/highorderfunction/Encripta.java,5\2\52effd71f4953556dcecc85d6eb1958201563203

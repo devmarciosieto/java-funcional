@@ -1,4 +1,4 @@
-package br.com.mmmsieto.highOrderFunction.impl;
+package br.com.mmmsieto.highorderfunction;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
