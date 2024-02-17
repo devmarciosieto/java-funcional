@@ -1,0 +1,30 @@
+
+}
+java:S1192 "bDefine a constant instead of duplicating this literal "---------------------------------" 3 times.(Êô²ºúÿÿÿÿ
+s
+java:S4276"]Refactor this code to use the more specialised Functional Interface 'BinaryOperator<Integer>'(Ã¥ö‰
+E	java:S106"+Replace this use of System.out by a logger.(ô®Ï¤ùÿÿÿÿ
+q
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'IntFunction<Function>'(°ìÑå
+@	java:S106"+Replace this use of System.out by a logger.(Æ™šú
+q
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(Ñ³ôØûÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(¨¡°Ñ
+@	java:S106"+Replace this use of System.out by a logger.(ÜÔËÿ
+@	java:S106"+Replace this use of System.out by a logger.(“”ù
+E	java:S106 "+Replace this use of System.out by a logger.(Êô²ºúÿÿÿÿ
+E	java:S106#"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ
+E	java:S106%"+Replace this use of System.out by a logger.(Êô²ºúÿÿÿÿ
+@	java:S106'"+Replace this use of System.out by a logger.(ş…ˆ
+E	java:S106)"+Replace this use of System.out by a logger.(Êô²ºúÿÿÿÿ
+t
+java:S4276*"YRefactor this code to use the more specialised Functional Interface 'IntToDoubleFunction'(ö¨³–üÿÿÿÿ
+E	java:S106+"+Replace this use of System.out by a logger.(±–ë£úÿÿÿÿ
+@	java:S106-"+Replace this use of System.out by a logger.(èğƒ‘
+y
+java:S4276/"^Refactor this code to use the more specialised Functional Interface 'ToDoubleFunction<String>'(˜ùëùÿÿÿÿ
+E	java:S1060"+Replace this use of System.out by a logger.(˜İîùÿÿÿÿ
+@	java:S1062"+Replace this use of System.out by a logger.(¹ÊÓ
+t
+java:S42764"^Refactor this code to use the more specialised Functional Interface 'ToDoubleFunction<String>'(Òÿ¡÷
+@	java:S1065"+Replace this use of System.out by a logger.(Èä¸Ê

@@ -32,6 +32,22 @@ public class CollectionUtilities {
 
         System.out.println(listNumbers);
 
+        System.out.println("************");
+
+        Function<Integer, Function<Integer, Integer>> f = e -> i -> e + i;
+
+        Function<Integer, Function<Integer, Function<Integer, Integer>>> ff = a -> b -> c -> a + b + c;
+
+        System.out.println("***** foldLeft *******");
+        System.out.println(foldLeft(List.of(1, 2, 3), 0, f));
+
+        System.out.println(foldLeft(List.of(1, 2, 3), "", acc -> e -> acc + " " + e));
+
+        System.out.println(foldLeft(List.of(1, 2, 3), "", acc -> e -> e + " " + acc));
+
+        System.out.println("***** foldLeftAdditional *******");
+        System.out.println(foldLeftAdditional(List.of(1, 2, 3), 0, 1, ff));
+
     }
 
     static <T> List<T> list() {
@@ -95,5 +111,35 @@ public class CollectionUtilities {
     }
 
     static Function<Integer, Integer> doublePoints = p -> p * 2;
+
+    static <T, U> U foldLeft(
+            List<T> list,
+            U identity,
+            Function<U, Function<T, U>> f) {
+
+        U acc = identity;
+
+        for (T i : list) {
+            acc = f.apply(acc).apply(i);
+        }
+
+        return acc;
+    }
+
+    static <T, U, A> U foldLeftAdditional(
+            List<T> list,
+            U identity,
+            A additional,
+            Function<U, Function<A, Function<T, U>>> f) {
+
+        U acc = identity;
+
+        for (T i : list) {
+            acc = f.apply(acc).apply(additional).apply(i);
+        }
+
+        return acc;
+    }
+
 
 }

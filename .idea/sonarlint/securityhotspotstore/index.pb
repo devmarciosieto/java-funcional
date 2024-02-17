@@ -1,14 +1,8 @@
 
-{
-Ksrc/main/java/br/com/mmmsieto/highOrderFunction/impl/HighOrderFunction.java,3\d\3da769f36cc99d2f69bf5a248dcb2df1e63f09c1
-r
-Bsrc/main/java/br/com/mmmsieto/highOrderFunction/impl/Encripta.java,6\6\6638e3fb00031f1085481ad06bc269693e67bca0
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 W
 'src/main/java/br/com/mmmsieto/Main.java,d\5\d5dc81249e1c28a36e8ac5b3f2aa39b5124fcbf5
-}
-Msrc/main/java/br/com/mmmsieto/highOrderFunction/impl/HighOrderFunction03.java,c\e\ceb79506ae80299697771bff7b15a6dc0fc9cf8f
 i
 9src/main/java/br/com/mmmsieto/identity/impl/Identity.java,a\3\a343566b47377f268ff471257434056e73263705
 w
@@ -41,3 +35,9 @@ x
 Hsrc/main/java/br/com/mmmsieto/abstractiteration/CollectionUtilities.java,5\6\56f8c21a057833fc8bc12768ae4adf4ab450b683
 m
 =src/main/java/br/com/mmmsieto/highorderfunction/Encripta.java,5\2\52effd71f4953556dcecc85d6eb1958201563203
+r
+Bsrc/main/java/br/com/mmmsieto/curryingpartial/CurryAndPartial.java,0\c\0c241603ce11aac81656eac5a30dd6c564e32805
+d
+4src/main/java/br/com/mmmsieto/laziness/ApplePay.java,0\8\082dad30ad5c99bf5d9f7b1ce4a77065f1565934
+d
+4src/main/java/br/com/mmmsieto/laziness/Laziness.java,e\8\e89a2bcdaa80045c0642e6ea643fd6ed37b21982
