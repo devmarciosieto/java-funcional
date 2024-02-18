@@ -126,6 +126,32 @@ public class CollectionUtilities {
         return acc;
     }
 
+    static <T, U> U foldRightImperative(
+            List<T> list,
+            U identity,
+            Function<T, Function<U, U>> f) {
+
+        U acc = identity;
+
+        for (int i = list.size(); i > 0; i--) {
+            acc = f.apply(list.get(i - 1)).apply(acc);
+        }
+
+        return acc;
+    }
+
+    static <T, U> U foldRight(
+            List<T> list,
+            U identity,
+            Function<T, Function<U, U>> f) {
+
+        return list.isEmpty()
+                ? identity
+                : f.apply(head(list)).apply(foldRight(tail(list), identity, f));
+
+
+    }
+
     static <T, U, A> U foldLeftAdditional(
             List<T> list,
             U identity,
@@ -141,5 +167,12 @@ public class CollectionUtilities {
         return acc;
     }
 
+    static <T> List<T> prepend(T t, List<T> list) {
+        return foldLeft(list, list(t), acc -> e -> append(acc, e));
+    }
+
+    static <T> List<T> reverse(List<T> list) {
+        return foldLeft(list, list(), acc -> e -> prepend(e, acc));
+    }
 
 }
