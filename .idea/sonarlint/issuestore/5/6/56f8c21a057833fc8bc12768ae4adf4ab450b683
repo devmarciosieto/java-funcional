@@ -1,22 +1,30 @@
 
 j
-java:S1192"MDefine a constant instead of duplicating this literal "************" 3 times.(Œ–­ï8„Å°èÛ1
-]	java:S125"<This block of commented-out lines of code should be removed.(†ÍÀùÿÿÿÿ8›Å°èÛ1
-L	java:S106"+Replace this use of System.out by a logger.(Ú–„‰úÿÿÿÿ8›Å°èÛ1
-]	java:S125"<This block of commented-out lines of code should be removed.(ÿÄîäùÿÿÿÿ8›Å°èÛ1
-G	java:S106"+Replace this use of System.out by a logger.(Œ–­ï8œÅ°èÛ1
-L	java:S106"+Replace this use of System.out by a logger.(œÜÅ¼øÿÿÿÿ8œÅ°èÛ1
-G	java:S106"+Replace this use of System.out by a logger.(Œ–­ï8œÅ°èÛ1
-G	java:S106"+Replace this use of System.out by a logger.(™Ô¢ñ8œÅ°èÛ1
-G	java:S106!"+Replace this use of System.out by a logger.(™Ô¢ñ8œÅ°èÛ1
-G	java:S106#"+Replace this use of System.out by a logger.(Œ–­ï8œÅ°èÛ1
-G	java:S106)"+Replace this use of System.out by a logger.(¿ºÈ8Å°èÛ1
-G	java:S106*"+Replace this use of System.out by a logger.(‹Öâ¯8Å°èÛ1
-G	java:S106,"+Replace this use of System.out by a logger.(ê÷²Ù8Å°èÛ1
-L	java:S106."+Replace this use of System.out by a logger.(‡üœ«úÿÿÿÿ8Å°èÛ1
-L	java:S1060"+Replace this use of System.out by a logger.(”ìúÿÿÿÿ8žÅ°èÛ1
-L	java:S1061"+Replace this use of System.out by a logger.(’—ýÒûÿÿÿÿ8žÅ°èÛ1
+java:S1192"MDefine a constant instead of duplicating this literal "************" 3 times.(Œ–­ï8ú¾ÒèÛ1
+]	java:S125"<This block of commented-out lines of code should be removed.(†ÍÀùÿÿÿÿ8§¿ÒèÛ1
+L	java:S106"+Replace this use of System.out by a logger.(Ú–„‰úÿÿÿÿ8¨¿ÒèÛ1
+]	java:S125"<This block of commented-out lines of code should be removed.(ÿÄîäùÿÿÿÿ8¨¿ÒèÛ1
+G	java:S106"+Replace this use of System.out by a logger.(Œ–­ï8¨¿ÒèÛ1
+L	java:S106"+Replace this use of System.out by a logger.(œÜÅ¼øÿÿÿÿ8¨¿ÒèÛ1
+G	java:S106"+Replace this use of System.out by a logger.(Œ–­ï8¨¿ÒèÛ1
+G	java:S106"+Replace this use of System.out by a logger.(™Ô¢ñ8¨¿ÒèÛ1
+G	java:S106!"+Replace this use of System.out by a logger.(™Ô¢ñ8¨¿ÒèÛ1
+G	java:S106#"+Replace this use of System.out by a logger.(Œ–­ï8¨¿ÒèÛ1
+G	java:S106)"+Replace this use of System.out by a logger.(¿ºÈ8©¿ÒèÛ1
+G	java:S106*"+Replace this use of System.out by a logger.(‹Öâ¯8©¿ÒèÛ1
+G	java:S106,"+Replace this use of System.out by a logger.(ê÷²Ù8©¿ÒèÛ1
+L	java:S106."+Replace this use of System.out by a logger.(‡üœ«úÿÿÿÿ8©¿ÒèÛ1
+L	java:S1060"+Replace this use of System.out by a logger.(”ìúÿÿÿÿ8ª¿ÒèÛ1
+L	java:S1061"+Replace this use of System.out by a logger.(’—ýÒûÿÿÿÿ8ª¿ÒèÛ1
+G	java:S1063"+Replace this use of System.out by a logger.(øÌã¢8ª¿ÒèÛ1
+L	java:S1064"+Replace this use of System.out by a logger.(¯£úœùÿÿÿÿ8ª¿ÒèÛ1
+L	java:S1066"+Replace this use of System.out by a logger.(Þ»ƒéúÿÿÿÿ8ª¿ÒèÛ1
+L	java:S1067"+Replace this use of System.out by a logger.(ýöÍæÿÿÿÿÿ8ª¿ÒèÛ1
+G	java:S1069"+Replace this use of System.out by a logger.(’ûÙ‚8ª¿ÒèÛ1
+G	java:S106;"+Replace this use of System.out by a logger.(˜Îü8ª¿ÒèÛ1
+L	java:S106="+Replace this use of System.out by a logger.(œ¦ˆçüÿÿÿÿ8«¿ÒèÛ1
+G	java:S106>"+Replace this use of System.out by a logger.(öï¯«8«¿ÒèÛ1
 `
-java:S1155F">Use isEmpty() to check whether the collection is empty or not.(á‡Ÿüþÿÿÿÿ8 Å°èÛ1
+java:S1155S">Use isEmpty() to check whether the collection is empty or not.(á‡Ÿüþÿÿÿÿ8¬¿ÒèÛ1
 `
-java:S1155N">Use isEmpty() to check whether the collection is empty or not.(á‡Ÿüþÿÿÿÿ8¡Å°èÛ1
+java:S1155[">Use isEmpty() to check whether the collection is empty or not.(á‡Ÿüþÿÿÿÿ8­¿ÒèÛ1

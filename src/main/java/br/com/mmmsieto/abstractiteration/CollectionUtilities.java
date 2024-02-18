@@ -48,6 +48,19 @@ public class CollectionUtilities {
         System.out.println("***** foldLeftAdditional *******");
         System.out.println(foldLeftAdditional(List.of(1, 2, 3), 0, 1, ff));
 
+        System.out.println("***** foldRightImperative *******");
+        System.out.println(foldRightImperative(List.of(1, 2, 3), 0, f));
+
+        System.out.println("***** foldRight *******");
+        System.out.println(foldRight(List.of(1, 2, 3), 0, f));
+
+        System.out.println("***** prepend *******");
+        List<Integer> n = prepend(1, List.of(2, 3, 4));
+        System.out.println("numbers: " + n);
+
+        System.out.println("***** reverse *******");
+        System.out.println(reverse(List.of(1, 2, 3, 4)));
+
     }
 
     static <T> List<T> list() {
