@@ -41,3 +41,5 @@ d
 4src/main/java/br/com/mmmsieto/laziness/ApplePay.java,0\8\082dad30ad5c99bf5d9f7b1ce4a77065f1565934
 d
 4src/main/java/br/com/mmmsieto/laziness/Laziness.java,e\8\e89a2bcdaa80045c0642e6ea643fd6ed37b21982
+\
+,src/main/java/br/com/mmmsieto/list/List.java,6\e\6e7d2810e72808c17631fca6decdc02e17b69d69
