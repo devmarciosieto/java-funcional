@@ -1,5 +1,6 @@
 package br.com.mmmsieto.list;
 
+import br.com.mmmsieto.composition.Function;
 import br.com.mmmsieto.trampoline.RecursiveTailCall;
 
 public abstract class List<T> {
@@ -8,6 +9,8 @@ public abstract class List<T> {
     public abstract List<T> tail();
     public abstract boolean isEmpty();
     public abstract List<T> setHead(T t);
+    public abstract List<T> drop(Integer n);
+    public abstract List<T> dropWhile(Function<T, Boolean> f);
 
     @SuppressWarnings("rawtypes")
     public static final List NIL = new Nil();
@@ -63,10 +66,40 @@ public abstract class List<T> {
         }
 
 //        @Override
+//        public List<T> drop(Integer n) {
+//            return n <= 0
+//                    ? this
+//                    : tail().drop(n - 1);
+//        }
+
+        @Override
+        public List<T> drop(Integer n) {
+            return drop_(this, n).get();
+        }
+
+        @Override
+        public List<T> dropWhile(Function<T, Boolean> f) {
+            return dropWhile_(this, f).get();
+        }
+
+        private RecursiveTailCall<List<T>> dropWhile_(List<T> acc, Function<T, Boolean> f) {
+            return !acc.isEmpty() && f.apply(acc.head())
+                    ? RecursiveTailCall.nonTerminalCall(() -> dropWhile_(acc.tail(), f))
+                    : RecursiveTailCall.terminal(acc);
+        }
+
+        private RecursiveTailCall<List<T>> drop_(List<T> acc, Integer n) {
+            return n <= 0 || acc.isEmpty()
+                    ? RecursiveTailCall.terminal(acc)
+                    : RecursiveTailCall.nonTerminalCall(() -> drop_(acc.tail(), n -1));
+        }
+
+
+
+//        @Override
 //        public String toString() {
 //            return head + ", " + tail.toString();
 //        }
-
 
         @Override
         public String toString() {
@@ -106,6 +139,16 @@ public abstract class List<T> {
         }
 
         @Override
+        public List<T> drop(Integer n) {
+            return this;
+        }
+
+        @Override
+        public List<T> dropWhile(Function<T, Boolean> f) {
+            return this;
+        }
+
+        @Override
         public String toString() {
             return "[Nil]";
         }
@@ -140,7 +183,19 @@ public abstract class List<T> {
         System.out.println(list(1));
         System.out.println(list(1, 2));
 
-    }
+        System.out.println("-----------------------------------");
+        System.out.println("drop");
+        System.out.println(list(1, 2).drop(0));               // -> [1, 2, NIL]
+        System.out.println(list(1, 2).drop(1));               // -> [2, NIL]
+        System.out.println(list("a", "b", "c", "d").drop(3)); // -> ["d", NIL]
 
+        System.out.println("-----------------------------------");
+        System.out.println("dropWhile");
+        System.out.println(list(1, 2, 3).dropWhile(e -> e < 3));    //-> [3, NIL]
+        System.out.println(list(1, 2, 3).dropWhile(e -> e < 2));    //-> [2, 3, NIL]
+        System.out.println(list(1, 2, 3).dropWhile(e -> e <= 2));   //-> [3, NIL]
+        System.out.println(list(1, 2, 3).dropWhile(e -> e > 8));    //-> [1, 2, 3, NIL]
+
+    }
 
 }
