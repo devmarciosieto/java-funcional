@@ -1,5 +1,7 @@
 package br.com.mmmsieto.list;
 
+import br.com.mmmsieto.trampoline.RecursiveTailCall;
+
 public abstract class List<T> {
 
     public abstract T head();
@@ -60,6 +62,23 @@ public abstract class List<T> {
             // new Cons(0, [2])  -> [0, 2]
         }
 
+//        @Override
+//        public String toString() {
+//            return head + ", " + tail.toString();
+//        }
+
+
+        @Override
+        public String toString() {
+            return "[" + toString_(new StringBuilder(), this).get() + "NIL]";
+        }
+
+        private RecursiveTailCall<StringBuilder> toString_(StringBuilder acc, List<T> list) {
+            return list.isEmpty()
+                    ? RecursiveTailCall.terminal(acc)
+                    : RecursiveTailCall.nonTerminalCall(() -> toString_(acc.append(list.head()).append(", "), list.tail()));
+        }
+
     }
 
     private static class Nil<T> extends List<T> {
@@ -86,6 +105,10 @@ public abstract class List<T> {
             throw new IllegalStateException("setHead method can not be called on an empty list");
         }
 
+        @Override
+        public String toString() {
+            return "[Nil]";
+        }
     }
 
     public static void main(String[] args) {
@@ -110,6 +133,12 @@ public abstract class List<T> {
 
         System.out.println(tweElement.setHead(0).head());
         System.out.println(tweElement.head());
+
+        System.out.println("-----------------------------------");
+        System.out.println("toString");
+        System.out.println(list());
+        System.out.println(list(1));
+        System.out.println(list(1, 2));
 
     }
 
