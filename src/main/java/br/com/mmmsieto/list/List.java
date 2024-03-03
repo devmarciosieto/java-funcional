@@ -11,6 +11,7 @@ public abstract class List<T> {
     public abstract List<T> setHead(T t);
     public abstract List<T> drop(Integer n);
     public abstract List<T> dropWhile(Function<T, Boolean> f);
+    public abstract List<T> init();
 
     @SuppressWarnings("rawtypes")
     public static final List NIL = new Nil();
@@ -31,6 +32,19 @@ public abstract class List<T> {
             r = new Cons<>(t[i], r);
         }
         return r;
+    }
+
+//    public static <T> List<T> reverse(List<T> acc, List<T> l) {
+//        return l.isEmpty() ? acc : reverse(new Cons<>(l.head(), acc), l.tail());
+//    }
+
+    public List<T> reverse() {
+        return reverse_(list(), this).get();
+    }
+
+    private RecursiveTailCall<List<T>> reverse_(List<T> acc, List<T> l) {
+        return l.isEmpty() ? RecursiveTailCall.terminal(acc) : RecursiveTailCall.nonTerminalCall(
+                () -> reverse_(new Cons<>(l.head(), acc), l.tail()));
     }
 
     private static class Cons<T> extends List<T> {
@@ -80,6 +94,11 @@ public abstract class List<T> {
         @Override
         public List<T> dropWhile(Function<T, Boolean> f) {
             return dropWhile_(this, f).get();
+        }
+
+        @Override
+        public List<T> init() {
+            return reverse().tail().reverse();
         }
 
         private RecursiveTailCall<List<T>> dropWhile_(List<T> acc, Function<T, Boolean> f) {
@@ -149,6 +168,11 @@ public abstract class List<T> {
         }
 
         @Override
+        public List<T> init() {
+            return this;
+        }
+
+        @Override
         public String toString() {
             return "[Nil]";
         }
@@ -195,6 +219,15 @@ public abstract class List<T> {
         System.out.println(list(1, 2, 3).dropWhile(e -> e < 2));    //-> [2, 3, NIL]
         System.out.println(list(1, 2, 3).dropWhile(e -> e <= 2));   //-> [3, NIL]
         System.out.println(list(1, 2, 3).dropWhile(e -> e > 8));    //-> [1, 2, 3, NIL]
+
+        System.out.println("-----------------------------------");
+        System.out.println("reverse");
+        System.out.println(list(1, 2, 3).reverse());
+
+        System.out.println("-----------------------------------");
+        System.out.println("init");
+        System.out.println(list(1, 2, 3).init()); // [1, 2, NIL]
+        System.out.println(list().init()); // [NIL]
 
     }
 

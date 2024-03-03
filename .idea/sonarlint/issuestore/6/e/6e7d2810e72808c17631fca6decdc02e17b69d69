@@ -1,39 +1,48 @@
 
 R
-java:S3740¦"/Provide the parametrized type for this generic.(²óÎÓùÿÿÿÿ8éäô‚à1
+java:S3740¾"/Provide the parametrized type for this generic.(²óÎÓùÿÿÿÿ8…½Ì­à1
 ‚
-java:S1192´"dDefine a constant instead of duplicating this literal "-----------------------------------" 3 times.(ÙŒÉ8éäô‚à1
+java:S1192Ì"dDefine a constant instead of duplicating this literal "-----------------------------------" 5 times.(ÙŒÉ8…½Ì­à1
 J
-java:S5411V"(Use a primitive boolean expression here.(˜ùòùÿÿÿÿ8êäô‚à1
-]	java:S125E"<This block of commented-out lines of code should be removed.(ĞÆæ—şÿÿÿÿ8åô‚à1
-j	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¡°…8åô‚à1
-o	java:S100["NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÃ¦öüÿÿÿÿ8’åô‚à1
-]	java:S125d"<This block of commented-out lines of code should be removed.(òß¿•üÿÿÿÿ8“åô‚à1
-i	java:S100m"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤˜Òz8”åô‚à1
+java:S5411i"(Use a primitive boolean expression here.(˜ùòùÿÿÿÿ8†½Ì­à1
+X	java:S125%"<This block of commented-out lines of code should be removed.(Â¸áÇ8˜½Ì­à1
+j	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ‡Î°8˜½Ì­à1
+]	java:S125S"<This block of commented-out lines of code should be removed.(ĞÆæ—şÿÿÿÿ8›½Ì­à1
+j	java:S100h"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ¡°…8›½Ì­à1
+o	java:S100n"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÃ¦öüÿÿÿÿ8œ½Ì­à1
+]	java:S125w"<This block of commented-out lines of code should be removed.(òß¿•üÿÿÿÿ8½Ì­à1
+j	java:S100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤˜Òz8½Ì­à1
 a
-java:S1854¢">Remove this useless assignment to local variable "oneElement".(¯ ÂÊúÿÿÿÿ8˜åô‚à1
-^	java:S125 "<This block of commented-out lines of code should be removed.(ë´öıÿÿÿÿ8™åô‚à1
+java:S1854º">Remove this useless assignment to local variable "oneElement".(¯ ÂÊúÿÿÿÿ8 ½Ì­à1
+^	java:S125¸"<This block of commented-out lines of code should be removed.(ë´öıÿÿÿÿ8 ½Ì­à1
 R
-java:S1481¢"/Remove this unused "oneElement" local variable.(¯ ÂÊúÿÿÿÿ8™åô‚à1
-^	java:S125£"<This block of commented-out lines of code should be removed.(àÇÄüÿÿÿÿ8šåô‚à1
-M	java:S106­"+Replace this use of System.out by a logger.(ßÑ÷æûÿÿÿÿ8›åô‚à1
-H	java:S106®"+Replace this use of System.out by a logger.(øÑ„î8›åô‚à1
-H	java:S106±"+Replace this use of System.out by a logger.(ÿ¬Ğ­8œåô‚à1
-Y	java:S125¯"<This block of commented-out lines of code should be removed.(ß¡æú8œåô‚à1
-M	java:S106²"+Replace this use of System.out by a logger.(ƒÉ§œúÿÿÿÿ8œåô‚à1
-H	java:S106´"+Replace this use of System.out by a logger.(ÙŒÉ8åô‚à1
-M	java:S106µ"+Replace this use of System.out by a logger.(ºşË¶ùÿÿÿÿ8åô‚à1
-M	java:S106¶"+Replace this use of System.out by a logger.(²õİıÿÿÿÿ8åô‚à1
-M	java:S106·"+Replace this use of System.out by a logger.(·Ğ•‚ûÿÿÿÿ8åô‚à1
-M	java:S106¸"+Replace this use of System.out by a logger.(Î çÏøÿÿÿÿ8åô‚à1
-H	java:S106º"+Replace this use of System.out by a logger.(ÙŒÉ8åô‚à1
-H	java:S106»"+Replace this use of System.out by a logger.(½î«¢8åô‚à1
-H	java:S106¼"+Replace this use of System.out by a logger.(¢î“8Ÿåô‚à1
-H	java:S106½"+Replace this use of System.out by a logger.(æç´ï8Ÿåô‚à1
-M	java:S106¾"+Replace this use of System.out by a logger.(é¡ÿ¶ıÿÿÿÿ8 åô‚à1
-H	java:S106À"+Replace this use of System.out by a logger.(ÙŒÉ8 åô‚à1
-H	java:S106Á"+Replace this use of System.out by a logger.(óóöğ8¡åô‚à1
-H	java:S106Â"+Replace this use of System.out by a logger.(û¥ÀÃ8¡åô‚à1
-M	java:S106Ã"+Replace this use of System.out by a logger.(šõâèşÿÿÿÿ8¤åô‚à1
-H	java:S106Ä"+Replace this use of System.out by a logger.(Å¡Åë8¥åô‚à1
-M	java:S106Å"+Replace this use of System.out by a logger.(µøİëşÿÿÿÿ8¦åô‚à1
+java:S1481º"/Remove this unused "oneElement" local variable.(¯ ÂÊúÿÿÿÿ8 ½Ì­à1
+^	java:S125»"<This block of commented-out lines of code should be removed.(àÇÄüÿÿÿÿ8 ½Ì­à1
+M	java:S106Å"+Replace this use of System.out by a logger.(ßÑ÷æûÿÿÿÿ8¡½Ì­à1
+H	java:S106Æ"+Replace this use of System.out by a logger.(øÑ„î8¡½Ì­à1
+H	java:S106É"+Replace this use of System.out by a logger.(ÿ¬Ğ­8¡½Ì­à1
+Y	java:S125Ç"<This block of commented-out lines of code should be removed.(ß¡æú8¡½Ì­à1
+M	java:S106Ê"+Replace this use of System.out by a logger.(ƒÉ§œúÿÿÿÿ8¡½Ì­à1
+H	java:S106Ì"+Replace this use of System.out by a logger.(ÙŒÉ8¡½Ì­à1
+M	java:S106Í"+Replace this use of System.out by a logger.(ºşË¶ùÿÿÿÿ8¡½Ì­à1
+M	java:S106Î"+Replace this use of System.out by a logger.(²õİıÿÿÿÿ8¡½Ì­à1
+M	java:S106Ï"+Replace this use of System.out by a logger.(·Ğ•‚ûÿÿÿÿ8¢½Ì­à1
+M	java:S106Ğ"+Replace this use of System.out by a logger.(Î çÏøÿÿÿÿ8¢½Ì­à1
+H	java:S106Ò"+Replace this use of System.out by a logger.(ÙŒÉ8¢½Ì­à1
+H	java:S106Ó"+Replace this use of System.out by a logger.(½î«¢8¢½Ì­à1
+H	java:S106Ô"+Replace this use of System.out by a logger.(¢î“8¢½Ì­à1
+H	java:S106Õ"+Replace this use of System.out by a logger.(æç´ï8¢½Ì­à1
+M	java:S106Ö"+Replace this use of System.out by a logger.(é¡ÿ¶ıÿÿÿÿ8¢½Ì­à1
+H	java:S106Ø"+Replace this use of System.out by a logger.(ÙŒÉ8¢½Ì­à1
+H	java:S106Ù"+Replace this use of System.out by a logger.(óóöğ8¢½Ì­à1
+H	java:S106Ú"+Replace this use of System.out by a logger.(û¥ÀÃ8£½Ì­à1
+M	java:S106Û"+Replace this use of System.out by a logger.(šõâèşÿÿÿÿ8£½Ì­à1
+H	java:S106Ü"+Replace this use of System.out by a logger.(Å¡Åë8£½Ì­à1
+M	java:S106İ"+Replace this use of System.out by a logger.(µøİëşÿÿÿÿ8£½Ì­à1
+H	java:S106ß"+Replace this use of System.out by a logger.(ÙŒÉ8£½Ì­à1
+H	java:S106à"+Replace this use of System.out by a logger.(œç¢Ú8£½Ì­à1
+G	java:S106á"+Replace this use of System.out by a logger.(µ…m8¤½Ì­à1
+H	java:S106ã"+Replace this use of System.out by a logger.(ÙŒÉ8¤½Ì­à1
+M	java:S106ä"+Replace this use of System.out by a logger.(¨ÈÜŸıÿÿÿÿ8¤½Ì­à1
+H	java:S106å"+Replace this use of System.out by a logger.(ÁğƒË8¤½Ì­à1
+H	java:S106æ"+Replace this use of System.out by a logger.(•ãµô8¤½Ì­à1
